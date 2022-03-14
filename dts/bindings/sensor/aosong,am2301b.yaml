@@ -1,0 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+description: Aosong AM2301B Humidity and Temperature Module 
+compatible: "aosong,am2301b"
+
+include: i2c-device.yaml
