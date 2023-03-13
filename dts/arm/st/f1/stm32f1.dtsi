@@ -17,6 +17,10 @@
 #include <freq.h>
 
 / {
+	aliases {
+		die-temp0 = &die_temp;
+	};
+
 	chosen {
 		zephyr,flash-controller = &flash;
 	};
